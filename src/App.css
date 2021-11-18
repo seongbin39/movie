@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
+.App{ margin: 100px auto; text-align: center; } 
+.img-container{ width: 400px; height: 400px; overflow: hidden; margin: 0 auto; } 
+.img-container img{ width: 100%; height: 100%; } 
+.control-btns{ display: flex; justify-content: center; align-items: center; margin-top: 20px; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.normal{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dark{
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.menu{ 
+  flex-grow: 1; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  color: tan; 
+  border-bottom: 2px solid tan; 
+  cursor: pointer;
+}
+.menu:hover{
+  background: chocolate;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.App{ width: 300px; clear: both; margin: 200px auto; } 
+.App label{ color:lightgreen; font-weight: bold; margin-left: 5px; } 
+.App input { width: 100%; height: 30px; clear: both; border: 2px solid lightgreen; border-radius: 15px; outline: none; padding: 10px; color: lightgreen; font-weight: bold; font-size: 1rem; } 
+.App input::placeholder{ color: lightgreen; } .login-btn{ width: 320px; display: flex; justify-content: flex-end; }
+
+.App{ width: 30%; margin: 200px auto; } .Upload{ display: none; }
+
+.Video{ margin: auto}
