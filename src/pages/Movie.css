@@ -1,0 +1,19 @@
+.movie-container{ 
+    width: 400px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background: orangered; 
+    color: white; 
+    border-radius: 10px; 
+} 
+.movie-item{ 
+    text-decoration: none; 
+    display: flex; 
+    flex-direction: column; 
+    color: lightsalmon; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+} 
+.movie-item:hover{ 
+    color: orangered; 
+}

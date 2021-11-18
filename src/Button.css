@@ -1,0 +1,63 @@
+.Button{
+    all: unset; 
+    color: white; 
+    background: tomato; 
+    cursor: pointer;
+    border-radius: 5px; 
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.Button:hover{
+    background-color: orange;
+    opacity: 0.8;
+}
+/* 버튼 크기 지정*/
+.large{
+    height: 70px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 1.5rem;
+}
+.medium{
+    height: 50px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 1rem;
+}
+.small{
+    height: 30px; 
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-size: 0.6rem;
+}
+/* 버튼 배경 지정*/
+.blue{
+    background-color: blue;
+}
+.blue:hover{
+    background-color: skyblue;
+}
+.tomato{
+    background-color: tomato;
+}
+.tomato:hover{
+    background-color: lightsalmon;
+}
+.gray{
+    background-color: gray;
+}
+.gray:hover{
+    background-color: lightgrey;
+}
+/* 전체너비를 차지하는 버튼 스타일 */
+.fullWidth{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

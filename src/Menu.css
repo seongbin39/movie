@@ -1,0 +1,17 @@
+.menu-item{
+    /* 링크의 밑줄 제거 */
+    text-decoration: none; 
+    /* 여백이 남으면 균등한 비율로 메뉴를 보여줌 */
+    flex: 1; 
+    color: white; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    border-bottom: 1px solid white; 
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+.menu-item:hover{ 
+    background: chocolate; 
+}
