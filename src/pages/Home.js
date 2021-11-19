@@ -1,8 +1,12 @@
 import React from "react";
 
-function Home(){
+function Home({...rest}){
     return(
-        <h1>Home</h1>
+        <div>
+            <h1>Home</h1>
+            <h1>{rest.title}</h1>
+        </div>
+        
     )
 }
 
